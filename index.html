@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="JavaScript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-fw fa-arrow-up"></i></button>
+    <header>
+        <a href="#" class="logo">SOFT-X</a>
+        <ul>
+            <li><a href="#home"><i class="fa fa-fw fa-home"></i>Home</a></li>
+            <li><a href="#service"><i class="fa fa-fw fa-globe"></i>Services</a></li>
+            <li><a href="#portfolio"><i class="fa fa-fw fa-briefcase"></i>PortFolio</a></li>
+            <li><a href="#Team"><i class="fa fa-fw fa-users"></i>Team</a></li>
+            <li><a href="#about"><i class="fa fa-fw fa-info"></i>About-us</a></li>
+           
+        </ul>
+        <button class="contact"> <i class="fa fa-fw fa-address-book"></i> Contact-us</button>
+    </header>
+    <br><br><br><br><br>
+
+    <div  class="main" id="home">
+        <h1>Home </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eveniet minus optio facilis. Eos vero, soluta, sint officiis qui harum ipsam dolorem doloribus nostrum cupiditate veniam facere quaerat, assumenda repellat.</p>
+    </div>
+    
+    <div class="main" id="service">
+        <h1>Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, necessitatibus quo? Saepe, temporibus. Quod, laudantium. Fuga fugit ullam expedita aperiam dicta nihil. Dolores adipisci saepe corporis distinctio! Enim, dolore ipsum?</p>
+    </div>
+
+    <div class="main" id="portfolio">
+        <h1>Portfolio</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In esse rem autem eius itaque ut sint reiciendis adipisci officiis repellat. Sapiente, expedita. Eveniet recusandae omnis dolorum reiciendis quo nihil fugiat.</p>
+
+    </div>
+    <div class="main" id="Team">
+        <h1>Team </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore mollitia impedit quas illo libero odio, praesentium ducimus veritatis, sed aut repudiandae fuga? Quos, vel ullam neque unde inventore modi ipsam!</p>
+    </div>
+    <div class="main" id="contact">
+        <h1>Contact us</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam maiores voluptatibus quibusdam, quasi hic praesentium corrupti sed quod accusantium quae necessitatibus tenetur excepturi laudantium ipsam perferendis. Laborum, natus excepturi.</p>
+    </div>
+    <div class="main" id="about">
+        <h1>About-Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum consequatur mollitia ipsa praesentium accusamus quasi molestiae aspernatur dolore molestias at eaque laboriosam, quos deleniti nihil fugiat voluptas quaerat est.</p>
+    </div>
+    
+    <footer>
+        <h3 style="text-align: center;">Copyright:2020-2022 by SOFTX</h3>
+    </footer>
+    
+  <script>
+
+      
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+
+  </script>
+
+</body>
+</html>

@@ -118,10 +118,149 @@ p{
 }
 
 
-#home{
-    height: 500px;
+.container{
+    
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+/* home */ 
+#home{
+    
+    background-image: url("CodingWa3.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+
+
+}
+#home::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+    z-index: -1;
+
+}
+#home .Home{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 650px;
+    padding: 0 50px;
+
+    justify-content: flex-start;
+    
+}
+#home h1{
+
+    display: block;
+    width: fit-content;
+    font-size: 40px;
+    position: relative;
+    color:white;
+    animation: textrr 1s ease;
+}
+#home h1:nth-child(1){
+    
+    color: white;
+}
+#home h1:nth-child(2){
+    animation-delay: 1s;
+    color: turquoise;
+    
+}
+#home h1:nth-child(3){
+
+    font-size: 20px;
+    color: royalblue;
+    
+    
+}
+
+#home h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: red;
+    animation: textr 1s ease;
+    animation-delay: 1s;
+   
+}
+
+#home .expl{
+    display: inline-block;
+    padding: 7px 30px;
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
+    border: 2px solid;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .15px;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property:color;
+
+
+}
+#home .expl:hover{
+    color: whitesmoke;
+    background-color: red;
+}
+#home .homeimg{
+   flex:0 0 40%;
+   max-width: 30%;
+
+   padding: 0 300px;
+   border-radius: 10%;
+   margin-top: -80px;
+
+}
+#home .Full{
+
+}
+#home .homeimg .logoim{
+    max-width: 300px;
+
+}
+#home .homeimg .logoim .Softxlogo{
+    width: 100%;
+    border-radius: 50%;
+}
+@keyframes textr{
+    50%{
+        width: 100%;
+        left: 0;
+        color: springgreen;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+        color: seagreen;
+    }
+}
+@keyframes textrr{
+    100%{
+        color:teal
+    }
+}
+
+
+
+
+
 
 #service{
     height: 500px;
@@ -147,3 +286,12 @@ p{
     height: 500px;
 
 }
+/* 
+
+ height: 650px;
+    display: flex;
+    background: url("") no-repeat center;
+    color: red;
+    min-height: 600px;
+
+*\ 

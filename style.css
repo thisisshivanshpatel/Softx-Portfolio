@@ -4,11 +4,16 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    
 }
 body{
     background:black;
     color:white;
     min-height: 100vh;
+    
+
+    
 }
 
 header{
@@ -63,7 +68,7 @@ header ul li a {
     transition: 0.6s;
 
 }
-header button{
+/* header button{
     
     font-size: 50px;
     color:black;
@@ -72,12 +77,33 @@ header button{
     padding:5px;
     margin-top: 4px;
     border:none;
-    border-radius:10px;
+   
     background: limegreen;
     letter-spacing: 2px;
     font-weight: 500;
     transition: 0.6s;
 
+} */
+
+.contact{
+    font-size: 50px;
+    
+    font-size: large;
+    position: relative;
+    padding:5px;
+    margin-top: 4px;
+    border-color: #4CAF50;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.6s;
+    border-radius:10px;
+    background-color: transparent;
+}
+.contact:hover{
+
+    background-color: #4CAF50;
+    color: white;
 }
 
 header.sticky .logo{
@@ -85,7 +111,8 @@ header.sticky .logo{
     margin-top: 20px;
 }
 header.sticky button{
-    color:#000;
+    /* color:#000; */
+    color:green;
     margin-top: 15px;
 }
 header.sticky ul li a{
@@ -118,26 +145,28 @@ p{
 }
 
 
-.container{
+#home{
+   
+    height: 550px; 
     
-    min-height: 400px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    background :url("imgs/p2.jpg");
+    background-size: cover;
+    /* position: relative; */
+    background-position: top center;
+
+    z-index: 6;
+     /* height: 500px;
+    background: white;
+    color:black;
+    background:url("https://source.unsplash.com/1500x1000/?network,databases");
+    
+ */
 
 }
-/* home */ 
-#home{
+.Full{
     
-    background-image: url("CodingWa3.jpg");
-    background-size: cover;
-    height: 600px;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
-
-
+    padding-top:80px;
 }
 #home::after{
     content: '';
@@ -148,10 +177,11 @@ p{
     width: 100%;
     background-color: black;
     opacity: .8;
-    z-index: -1;
+    z-index: -1; 
 
 }
-#home .Home{
+
+ #home .Home{
     
     max-width: 1200px;
     margin: 0 auto;
@@ -166,10 +196,10 @@ p{
     display: block;
     width: fit-content;
     font-size: 40px;
-    position: relative;
+    /* position: relative; */
     color:white;
     animation: textrr 1s ease;
-}
+} 
 #home h1:nth-child(1){
     
     color: white;
@@ -181,8 +211,10 @@ p{
 }
 #home h1:nth-child(3){
 
-    font-size: 20px;
-    color: royalblue;
+    padding-top:30px;
+    font-size: 25px;
+    color:gold;
+    
     
     
 }
@@ -224,13 +256,12 @@ p{
    max-width: 30%;
 
    padding: 0 300px;
-   border-radius: 10%;
-   margin-top: -80px;
+   margin-left: 45%;
+
+   margin-top: -20%;
 
 }
-#home .Full{
 
-}
 #home .homeimg .logoim{
     max-width: 300px;
 
@@ -262,36 +293,153 @@ p{
 
 
 
-#service{
+
+#service {
     height: 500px;
+    background: white;
+    color:black;
+    background:url("https://source.unsplash.com/1500x1000/?network,databases");
+    background-attachment: fixed;
+
+}
+.subinfo{
+    margin-top: 10px;
+    color:Black;
+    letter-spacing: 1px;
+
+
+
 
 }
 
 #portfolio{
     height: 500px;
+    background:pink;
+    margin-bottom: 50px;
 
 }
 
 #Team{
     height: 500px;
-
+    background:url("https://source.unsplash.com/1500x1000/?nature,development");
+    background-attachment: fixed;
+    
 }
 
 #contact{
-    height: 500px;
+    height: 300px;
+    background-color:whitesmoke;
+    
+    font-weight: 500px;
+}
+#contact h3{
+    padding-top:4rem;
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    font-weight: 500;
 
 }
+.contacts {
+    text-align:center;
+    font-weight: 500;
+    font-size: larger;
+    border-radius: 5px;
+    border-color: yellowgreen;
+    color:green;
+    background-color:transparent;
+    padding:10px;
+    margin-left: 38rem;
+    margin-top:3rem;
 
+}
+.contacts:hover{
+    color:white;
+    background-color: yellowgreen;
+}
 #about{
     height: 500px;
+    background-color: black;
 
 }
-/* 
 
- height: 650px;
-    display: flex;
-    background: url("") no-repeat center;
-    color: red;
-    min-height: 600px;
 
-*\ 
+
+h3{
+    color:white;
+}
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  img {
+      border-radius:5px 5px 0 0;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .row {margin: 0 -5px;}
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .servicebtn{
+      
+    margin-top:20px;
+      background-color: limegreen;
+      padding:8px;
+      border:none;
+      font-weight: 500;
+      border-radius: 20px;
+      color:black;
+  }
+
+  
+  .rows1 {
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      
+    
+    
+  }
+  .maps{
+      
+    
+    height: 700px;
+    
+    
+  }
+  .gform{
+      margin-left:45rem;
+      position: relative;
+      margin-top:-44rem;
+    
+  }
+  
+  .footer{
+    height: 200px; 
+    text-align: center;
+    padding: 100px;
+  }

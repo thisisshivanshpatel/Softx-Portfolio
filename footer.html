@@ -1,91 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="utf-8">
-    <meta name="application-name" content="footer">
+    <title>Responsive Footer Section | Programming Updates</title>
+    <link rel="stylesheet" href="Footerstyle.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="author" content="shivansh patel">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+  </head>
+  <body>
+    <div class="content1">
+      <div class="text">Fully Responsive Footer Section</div>
+      <div class="p">Done from my side</div>
+    </div>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>Follow us</h2>
+          <div class="content">
+            <p>Follow us to get latest updates about our projects.SoftX always do best projects which you can follow on our social media handle.</p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
 
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Mumbai, Thane</span>
+            </div>
+            <div class="phone">
+              <a href="tel:9876543210">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">9876543210</span>
+              </a>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">SoftX@gmail.com</span>
+            </div>
+          </div>
+        </div>
 
-    <title>imall</title>
-
-
-    <style>
-        body {
-            margin: 0%;
-            background-color: #d6d6d6;
-            overflow-x: hidden;
-        }
-
-        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
-
-        :root {
-            --main-bg-color: brown;
-            --font1: 'Baloo Bhaina 2', cursive;
-            --font2: 'Roboto', sans-serif;
-        }
-
-        .name {
-            font-family: var(--font1);
-            font-weight: bolder;
-            color: white;
-        }
-
-        footer {
-            background-color: #333;
-            overflow: hidden;
-        }
-
-        footer a {
-            text-decoration: none;
-            padding: 40px;
-            text-align: center;
-            float: left;
-            color: white;
-        }
-
-        /* -------------------------------------------------------------------------*/
-        @media (max-width:1120px) {
-
-            footer {
-                background-color: #333;
-                overflow: hidden;
-                display: flex;
-                flex-wrap:wrap;
-                flex-direction: column;
-                
-                justify-content: space-between;
-            }
-
-            footer a {
-                flex-basis: 60px;
-                text-decoration: none;
-                font-size: 15px;
-                color: white;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-
-
-    <footer class="name">
-        <a href="#">FAQ</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Follow Us</a>
-        <a href="#">Terms of Use</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Refund Policy</a>
-        <a href="#">&copy; 2021 | Portfolio website</a>
+        <div class="right box">
+          <h2>Subscribe our News Letter</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="btn">
+                <button type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit">Created By <a href="#">SoftX</a> | </span>
+          <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+        </center>
+      </div>
     </footer>
 
-</body>
-
+  </body>
 </html>

@@ -320,8 +320,9 @@ p{
 }
 
 #Team{
-    height: 500px;
-    background:url("https://source.unsplash.com/1500x1000/?nature,development");
+    
+    height: 700px;
+    background:url("https://source.unsplash.com/1500x1000/?nature,computers");
     background-attachment: fixed;
     
 }
@@ -345,6 +346,8 @@ p{
 
 }
 .contacts {
+    
+    align-content: center;
     text-align:center;
     font-weight: 500;
     font-size: larger;
@@ -354,7 +357,8 @@ p{
     background-color:transparent;
     padding:10px;
     margin-left: 38rem;
-    margin-top:3rem;
+    margin-top: 2rem;
+   
 
 }
 .contacts:hover{
@@ -363,11 +367,51 @@ p{
 }
 #about{
     height: 500px;
-    background-color: black;
+    background-color:black;
 
 }
 
 
+
+
+
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border:2px solid white;*/
+    height: 95vh;
+    color:red;
+}	
+
+.con1{
+    width: 40%;
+    /*border:2px solid white;*/
+    margin: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.con1 h1{
+    font-size: 50px;
+    color:yellowgreen;
+
+    
+    }
+
+.con1 p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.con2{
+    width: 50%;
+    /*border:2px solid white;*/
+    margin: 20px;
+    border-radius: 40px;
+    overflow: hidden;
+}
 
 h3{
     color:white;

@@ -327,6 +327,7 @@ p{
 }
 
 #contact{
+
     height: 300px;
     background-color:whitesmoke;
     
@@ -338,6 +339,9 @@ p{
     color:black;
     text-align: center;
     font-weight: 500;
+
+    height: 800px   ;
+
 
 }
 .contacts {
@@ -443,3 +447,6 @@ h3{
     text-align: center;
     padding: 100px;
   }
+
+
+  

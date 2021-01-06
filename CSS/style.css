@@ -314,8 +314,9 @@ p{
 
 #portfolio{
     height: 500px;
-    background:pink;
-    margin-bottom: 50px;
+ 
+    background:url("https://source.unsplash.com/1600x1000/?nature,computers,space");
+    background-attachment: fixed;
 
 }
 
@@ -341,7 +342,7 @@ p{
     text-align: center;
     font-weight: 500;
 
-    height: 800px   ;
+  
 
 
 }
@@ -466,7 +467,7 @@ h3{
 
   
   .rows1 {
-      margin-top: 5rem;
+      margin-top: 0;
       margin-bottom: 3rem;
       
     
@@ -486,11 +487,6 @@ h3{
     
   }
   
-  .footer{
-    height: 200px; 
-    text-align: center;
-    padding: 100px;
-  }
 
 
   

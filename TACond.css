@@ -1,0 +1,36 @@
+p{
+	margin-right: 150px;
+	margin-left:  150px;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+   text-align: left;
+}
+li{
+	margin-right: 150px;
+	margin-left:  150px;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+   text-align: left;
+}
+h2{
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+   text-align: center;
+    }
+h1{
+	font-size: 50px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+    text-align: center;
+    }
+form{
+	padding: 10px;
+	margin: 20px;
+	background-color: #ffdfb5;
+}
+body{
+	background : black;
+}   		

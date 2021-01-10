@@ -147,10 +147,8 @@ p{
 
 #home{
    
-    height: 550px; 
-    
-    
-    background :url("imgs/p2.jpg");
+    height: 560px; 
+    background-image:url("p2c.jpg");
     background-size: cover;
     /* position: relative; */
     background-position: top center;
@@ -408,8 +406,10 @@ p{
 }
 .con2{
     width: 50%;
+    height: 50%;
     /*border:2px solid white;*/
     margin: 20px;
+    
     border-radius: 40px;
     overflow: hidden;
 }

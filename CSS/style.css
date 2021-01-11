@@ -5,7 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    
 }
 body{
     background:black;
@@ -346,7 +345,6 @@ p{
 }
 .contacts {
     
-    align-content: center;
     text-align:center;
     font-weight: 500;
     font-size: larger;
@@ -355,7 +353,6 @@ p{
     color:green;
     background-color:transparent;
     padding:10px;
-    margin-left: 38rem;
     margin-top: 2rem;
    
 
@@ -489,4 +486,25 @@ h3{
   
 
 
-  
+  @media (max-width:1120px) {
+    .logoim
+{
+    display: none;
+}
+
+.con1 h1
+{
+    font-size: 25px;
+    color: yellowgreen;
+} 
+
+.con1 p
+{
+    font-size:10px;
+}
+/*
+#home .homeimg
+{
+    margin-left: 0%;
+} */
+}

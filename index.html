@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/team.css">
     <link rel="stylesheet" href="CSS/Footerstyle.css">
+    <link rel="stylesheet" href="CSS/Headerstyle.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,18 +18,21 @@
 </head>
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-fw fa-arrow-up"></i></button>
-    <header>
-        <a href="index.html" class="logo"><span style="color: midnightblue;">SOFT</span>-<span style="color:gold">X</span></a>
-        <ul>
-            <li><a href="#home"><i class="fa fa-fw fa-home"></i>Home</a></li>
-            <li><a href="#service"><i class="fa fa-fw fa-globe"></i>Services</a></li>
-            <li><a href="#portfolio"><i class="fa fa-fw fa-briefcase"></i>PortFolio</a></li>
-            <li><a href="#Team"><i class="fa fa-fw fa-users"></i>Team</a></li>
-            <li><a href="#about"><i class="fa fa-fw fa-info"></i>About-us</a></li>
-           
-        </ul>
-        <a href="Contact.html"><button class="contact"> <i class="fa fa-fw fa-address-book"></i> Contact-us</button></a>
-    </header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><a href="index.html"><span style="color: midnightblue;">Soft</span>-<span style="color:gold">X</span></a></label>
+      <ul>
+        <li><a href="#home"><i class="fa fa-fw fa-home"></i>Home</a></li>
+        <li><a href="#service"><i class="fa fa-fw fa-globe"></i>Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-fw fa-briefcase"></i>PortFolio</a></li>
+        <li><a href="#Team"><i class="fa fa-fw fa-users"></i>Team</a></li>
+        <li><a href="#about"><i class="fa fa-fw fa-info"></i>About-us</a></li>
+       
+    </ul>
+    </nav>
     
     <br><br><br><br>
     <div  class="main" id="home">
@@ -186,10 +190,11 @@
                </div>
            <div class="cards">
                <div class="box">
-                   <img src="imgs/tanu.jpeg" alt="team img" />
+                   <img src="imgs/shivansh.jpg" alt="team img" />
                    <h4>Shivansh Patel</h4>
                    <h5>Softwares Developer & Web Desinger</h5>
-                   <p>He is java Developer in softx.</p>
+                   <p>He is the founder of programming updates</p>
+                   <p>And He is also a java Developer in softx.</p>
                 </div>
             </div>
         </div>
@@ -200,8 +205,9 @@
 
     <div class="main" id="contact">
       <h3>We would be happy to answer your questions. Soft-X Help you bulid your Dream Application <br> Click The Below Button To Contact- Us</h3>
+     <center>
       <a href="Contact.html"><button class="contacts"> <i class="fa fa-fw fa-address-book"></i> Contact-us</button></a>
-     
+     </center>
     </div>
       
 
